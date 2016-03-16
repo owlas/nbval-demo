@@ -1,0 +1,3 @@
+[submodule "nbval"]
+	path = nbval
+	url = git@github.com:computationalmodelling/nbval.git
