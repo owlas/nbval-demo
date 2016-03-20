@@ -5,15 +5,15 @@ in Jupyter notebooks
 
 ## Get started
 
-We will use miniconda to manage a new python environment (which will
-not interact with your current python set up).
-
-1. Get miniconda - follow the
-   [miniconda quick install guide](http://conda.pydata.org/docs/install/quick.html)
-2. Clone this repository `git clone git@github.com:owlas/nbval-demo.git`
-3. and its submodules `git submodule init && git submodule update`
-4. set up conda environment `conda env create -f environment.yml`
-5. activate the new environment `source activate nbval-demo`
+1. **Clone this repo**
+    - `git clone git@github.com:owlas/nbval-demo.git`
+2. **Get miniconda**
+   - If you already have (mini)conda, then you can skip this step
+   - Follow the [miniconda quick install guide](http://conda.pydata.org/docs/install/quick.html)
+3. **Set up conda environment**
+    - `conda env create -f environment.yml`
+4. **Activate the new environment**
+    - `source activate nbval-demo`
 
 ## Test your setup
 
